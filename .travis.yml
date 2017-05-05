@@ -1,5 +1,12 @@
 language: bash
 
+before_install:
+    - travis_retry sudo add-apt-repository -y ppa:jgross-h/many-coq-versions
+    - travis_retry sudo apt-get update
+    - travis_retry sudo apt-get install coq-8.6
+    - coqc --version
+    - coqc-8.6 --version
+
 script:
   - bin/fetch-configlet
   - bin/configlet .
