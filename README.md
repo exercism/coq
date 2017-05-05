@@ -6,7 +6,12 @@ Exercism exercises in Coq.
 
 ## Setup
 
-The simplest way to install Coq is ...
+There are 2 ways to insal Coq:
+1. [Recommened] Using OPAM package manger: https://coq.inria.fr/opam/www/using.html
+2. [Alternative] Direct download Coq binaries from the official site: https://coq.inria.fr/download
+
+For editing Coq sources we recomend using one of the following:
+1. [Recommened] Emacs editor with ProofGeneral and CompanyCoq.
 
 ## Contributing
 
