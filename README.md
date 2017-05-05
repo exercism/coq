@@ -6,12 +6,19 @@ Exercism exercises in Coq.
 
 ## Setup
 
+
+
 There are 2 ways to insal Coq:
+
 1. [Recommened] Using OPAM package manger: https://coq.inria.fr/opam/www/using.html
 2. [Alternative] Direct download Coq binaries from the official site: https://coq.inria.fr/download
 
 For editing Coq sources we recomend using one of the following:
-1. [Recommened] Emacs editor with ProofGeneral and CompanyCoq.
+1. [Recommened] Emacs editor with ProofGenera] and CompanyCoq. See https://github.com/cpitclaudel/company-coq) for instalation instructions.
+2. [Alternative] Using CoqIDE
+
+Presently, exercises do not require any additional Coq libraries.
+Recommended version of Coq: 8.6
 
 ## Contributing
 
