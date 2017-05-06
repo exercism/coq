@@ -6,8 +6,6 @@ Exercism exercises in Coq.
 
 ## Setup
 
-
-
 There are 2 ways to insal Coq:
 
 1. [Recommened] Using OPAM package manger: https://coq.inria.fr/opam/www/using.html
@@ -43,8 +41,11 @@ We simulate Test-Driven Development (TDD) by implementing the tests in order of 
 
 Test files should use the following format:
 
-```
-# include the body of an example test
+```Coq
+Theorem TautologyExercise: True.
+Proof.
+  (* Add your proof here *)
+Qed.
 ```
 
 ## Submitting a Pull Request ##
@@ -65,16 +66,13 @@ Please keep the following in mind:
 
 ## Contributing a New Exercise ##
 
-- All Exercism exercises must be defined in [x-common](https://github.com/exercism/x-common/tree/master/exercises) before they are implemented for a specific track. Please submit a PR there if your exercise is new to Exercism.
-
 - Please make sure the new exercise conforms to specifications in the [exercism/x-common](https://github.com/exercism/x-common) repo.
 
 - Each exercise must stand on its own. Do not reference files outside the exercise directory. They will not be included when the user fetches the exercise.
 
 - Exercises should use only the Coq core libraries.
 
-- Please do not add a README or README.md file to the exercise directory. The READMEs are constructed using shared metadata, which lives in the
-[exercism/x-common](https://github.com/exercism/x-common) repository. Further explanation can be found in [fixing-exercise-readmes](https://github.com/exercism/exercism.io/blob/master/docs/fixing-exercise-readmes.md)
+- Please do not add a README or README.md file to the exercise directory. The READMEs are constructed using shared metadata. Further explanation can be found in [fixing-exercise-readmes](https://github.com/exercism/exercism.io/blob/master/docs/fixing-exercise-readmes.md)
 
 - Each exercise should have a test suite, an example solution, a template file for the real implementation and ... (anything else that needs to go with each exercise for this track). The CI build expects files to be named using the following convention: (describe the Coq convention for naming the various files that make up an exercise).
 
