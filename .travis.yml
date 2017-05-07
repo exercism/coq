@@ -1,11 +1,19 @@
 language: bash
 
 before_install:
-    - travis_retry sudo add-apt-repository -y ppa:jgross-h/many-coq-versions
-    - travis_retry sudo apt-get update
-    - travis_retry sudo apt-get install coq-8.6
-    - coqc --version
+- travis_retry sudo add-apt-repository -y ppa:jgross-h/many-coq-versions
+- travis_retry sudo apt-get update
+- travis_retry sudo apt-get install coq-8.6
+- coqc --version
+- export PATH="${TRAVIS_BUILD_DIR}/bin:$PATH" # For {,fetch-}configlet.
 
-script:
-  - bin/fetch-configlet
-  - bin/configlet .
+install:
+- fetch-configlet
+
+script: 
+- |
+    set -e
+    configlet .
+    for exercise in ${TRAVIS_BUILD_DIR}/exercises/*/ ; do
+        (cd $exercise; coqc example.v)
+    done
