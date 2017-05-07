@@ -4,3 +4,4 @@ bin/configlet
 bin/configlet.exe
 *.glob
 *.vo
+*.aux
