@@ -1,19 +1,19 @@
 # Exercism Coq Track
 
-![build status](https://travis-ci.org/exercism/xslug.svg?branch=master)
+![build status](https://travis-ci.org/exercism/xcoq.svg?branch=master)
 
 Exercism exercises in Coq.
 
 ## Setup
 
-There are 2 ways to insal Coq:
+There are 2 ways to install Coq:
 
-1. [Recommened] Using OPAM package manger: https://coq.inria.fr/opam/www/using.html
-2. [Alternative] Direct download Coq binaries from the official site: https://coq.inria.fr/download
+1. [Recommended] Using OPAM package manger: https://coq.inria.fr/opam/www/using.html
+2. [Alternative] Directly download Coq binaries from the official site: https://coq.inria.fr/download
 
 For editing Coq sources we recomend using one of the following:
-1. [Recommened] Emacs editor with ProofGenera] and CompanyCoq. See https://github.com/cpitclaudel/company-coq) for instalation instructions.
-2. [Alternative] Using CoqIDE
+1. [Recommended] [Emacs](https://www.gnu.org/software/emacs/) editor with [ProofGeneral](https://proofgeneral.github.io/) and CompanyCoq. See https://github.com/cpitclaudel/company-coq for installation instructions.
+2. [Alternative] Using [CoqIDE](https://coq.inria.fr/download)
 
 Presently, exercises do not require any additional Coq libraries.
 Recommended version of Coq: 8.6
