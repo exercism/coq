@@ -10,6 +10,18 @@
       "difficulty": 1,
       "topics": [
       ]
+    },
+    {
+      "slug": "rna-description",
+      "difficulty": 1,
+      "topics": [
+      ]
+    },
+    {
+      "slug": "tautology",
+      "difficulty": 1,
+      "topics": [
+      ]
     }
   ],
   "deprecated": [
