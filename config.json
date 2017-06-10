@@ -9,28 +9,26 @@
       "slug": "hello-world",
       "difficulty": 1,
       "topics": [
+
       ]
     },
     {
       "slug": "rna-transcription",
       "difficulty": 1,
       "topics": [
+
       ]
     },
     {
       "slug": "tautology",
       "difficulty": 1,
       "topics": [
+
       ]
     }
   ],
   "deprecated": [
 
-  ],
-  "ignored": [
-    "bin",
-    "img",
-    "docs"
   ],
   "foregone": [
 
