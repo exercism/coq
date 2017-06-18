@@ -1,6 +1,6 @@
 # Exercism Coq Track
 
-[![Build Status](https://travis-ci.org/exercism/xcoq.svg?branch=master)](https://travis-ci.org/exercism/xcoq)
+[![Build Status](https://travis-ci.org/exercism/coq.svg?branch=master)](https://travis-ci.org/exercism/coq)
 
 Exercism exercises in Coq.
 

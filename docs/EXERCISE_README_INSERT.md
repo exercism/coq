@@ -15,7 +15,7 @@ There is no additional testing step needed as we can offload all testing to the 
 
 ## Feedback, Issues, Pull Requests
 
-The [exercism/xcoq](https://github.com/exercism/xcoq) repository on
+The [exercism/coq](https://github.com/exercism/coq) repository on
 GitHub is the home for all of the Coq exercises.
 
 If you have feedback about an exercise, or want to help implementing a new
