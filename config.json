@@ -6,29 +6,35 @@
   "test_pattern": "TODO",
   "exercises": [
     {
+      "uuid": "a001fd68-5913-4041-80ea-0558b269ba4f",
       "slug": "hello-world",
+      "core": false,
+      "unlocked_by": null,
       "difficulty": 1,
       "topics": [
 
       ]
     },
     {
+      "uuid": "10a7ad13-8564-4713-853b-5b13a829ac50",
       "slug": "rna-transcription",
+      "core": false,
+      "unlocked_by": null,
       "difficulty": 1,
       "topics": [
 
       ]
     },
     {
+      "uuid": "b647eb59-40ce-49c9-b0ce-775615ce0063",
       "slug": "tautology",
+      "core": false,
+      "unlocked_by": null,
       "difficulty": 1,
       "topics": [
 
       ]
     }
-  ],
-  "deprecated": [
-
   ],
   "foregone": [
 
