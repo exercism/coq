@@ -1,7 +1,5 @@
 {
-  "slug": "coq",
   "language": "Coq",
-  "repository": "https://github.com/exercism/coq",
   "active": false,
   "test_pattern": "TODO",
   "exercises": [
