@@ -22,11 +22,11 @@ Recommended version of Coq: 8.6
 
 Thank you so much for contributing! :tada:
 
-Please start by reading how to [get involved in a track](https://github.com/exercism/exercism.io/blob/master/docs/getting-involved-in-a-track.md). Comprehensive details on contributing can be found [here](https://github.com/exercism/x-common/blob/master/CONTRIBUTING.md). Be sure to read the Exercism [Code of Conduct](https://github.com/exercism/exercism.io/blob/master/CODE_OF_CONDUCT.md).
+Please start by reading how to [get involved in a track](https://github.com/exercism/exercism.io/blob/master/docs/getting-involved-in-a-track.md). Comprehensive details on contributing can be found [here](https://github.com/exercism/problem-specifications/blob/master/CONTRIBUTING.md). Be sure to read the Exercism [Code of Conduct](https://github.com/exercism/exercism.io/blob/master/CODE_OF_CONDUCT.md).
 
 We welcome pull requests of all kinds. No contribution is too small.
 
-We encourage contributions that provide fixes and improvements to existing exercises. Please note that this track's exercises must conform to the standards determined in the [exercism/x-common](https://github.com/exercism/x-common) repo. Changes to the tests or documentation of a common exercise will often warrant a PR in that repo before it can be incorporated into this track's exercises. If you're unsure, then go ahead and open a GitHub issue, and we'll discuss the change.
+We encourage contributions that provide fixes and improvements to existing exercises. Please note that this track's exercises must conform to the standards determined in the [exercism/problem-specifications](https://github.com/exercism/problem-specifications) repo. Changes to the tests or documentation of a common exercise will often warrant a PR in that repo before it can be incorporated into this track's exercises. If you're unsure, then go ahead and open a GitHub issue, and we'll discuss the change.
 
 ## Exercise Tests ##
 
@@ -66,17 +66,17 @@ Please keep the following in mind:
 
 ## Contributing a New Exercise ##
 
-- Please make sure the new exercise conforms to specifications in the [exercism/x-common](https://github.com/exercism/x-common) repo.
+- Please make sure the new exercise conforms to specifications in the [exercism/problem-specifications](https://github.com/exercism/problem-specifications) repo.
 
 - Each exercise must stand on its own. Do not reference files outside the exercise directory. They will not be included when the user fetches the exercise.
 
 - Exercises should use only the Coq core libraries.
 
-- Please do not add a README or README.md file to the exercise directory. The READMEs are constructed using shared metadata. Further explanation can be found in [fixing-exercise-readmes](https://github.com/exercism/exercism.io/blob/master/docs/fixing-exercise-readmes.md)
+- Please do not add a README or README.md file to the exercise directory. The READMEs are constructed using shared metadata. Further explanation can be found in [fixing-exercise-readmes](https://github.com/exercism/docs/blob/master/language-tracks/exercises/anatomy/readmes.md)
 
 - Each exercise should have a test suite, an example solution, a template file for the real implementation and ... (anything else that needs to go with each exercise for this track). The CI build expects files to be named using the following convention: (describe the Coq convention for naming the various files that make up an exercise).
 
 - Please do not commit any configuration files or directories inside the exercise other than ...
 
-- Be sure to add it to the appropriate place in the `config.json` file. Also, please run `bin/fetch-configlet && bin/configlet` to ensure the exercise is configured correctly.
+- Be sure to add it to the appropriate place in the `config.json` file. Also, please run `bin/fetch-configlet && bin/configlet lint .` to ensure the exercise is configured correctly.
 
