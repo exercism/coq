@@ -1,40 +1,32 @@
 {
   "language": "Coq",
   "active": false,
+  "blurb": "",
   "test_pattern": ".*[.]v",
   "exercises": [
     {
-      "uuid": "a001fd68-5913-4041-80ea-0558b269ba4f",
       "slug": "hello-world",
+      "uuid": "a001fd68-5913-4041-80ea-0558b269ba4f",
       "core": false,
       "unlocked_by": null,
       "difficulty": 1,
-      "topics": [
-
-      ]
+      "topics": []
     },
     {
-      "uuid": "10a7ad13-8564-4713-853b-5b13a829ac50",
       "slug": "rna-transcription",
+      "uuid": "10a7ad13-8564-4713-853b-5b13a829ac50",
       "core": false,
       "unlocked_by": null,
       "difficulty": 1,
-      "topics": [
-
-      ]
+      "topics": []
     },
     {
-      "uuid": "b647eb59-40ce-49c9-b0ce-775615ce0063",
       "slug": "tautology",
+      "uuid": "b647eb59-40ce-49c9-b0ce-775615ce0063",
       "core": false,
       "unlocked_by": null,
       "difficulty": 1,
-      "topics": [
-
-      ]
+      "topics": []
     }
-  ],
-  "foregone": [
-
   ]
 }
