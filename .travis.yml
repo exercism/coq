@@ -23,8 +23,8 @@ script:
       sudo chown -R coq:coq /home/coq/${CONTRIB_NAME}
       # coq_makefile -f _CoqProject -o Makefile
       # ( make && make install )
+      bin/fetch-configlet
+      bin/configlet lint .
       echo \"Docker run successful!\"
       " script
   - docker stop COQ
-  - bin/fetch-configlet
-  - bin/configlet lint .
