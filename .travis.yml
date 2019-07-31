@@ -7,7 +7,7 @@ services:
 env:
   global:
   - NJOBS="2"
-  - CONTRIB_NAME="demo"
+  - CONTRIB_NAME="exercism-coq"
   - COQ_IMAGE="coqorg/coq:8.9"
 
 install: |
