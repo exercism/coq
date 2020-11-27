@@ -19,6 +19,4 @@ jobs:
       - name: Run exercism/coq ci (runs tests) for all exercises
         run: |
           export NJOBS=2
-          docker run --rm coqorg/coq:8.9 "
-            coq_makefile -f _CoqProject -o Makefile && make && make install
-          " script
+          docker run --rm coqorg/coq:8.9 coq_makefile -f _CoqProject -o Makefile && make && make install
