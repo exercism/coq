@@ -1,7 +1,7 @@
 # Exercism Coq Track
 
-[![Configlet Status](https://github.com/exercism//workflows/configlet/badge.svg)]
-[![Exercise Test Status](https://github.com/exercism//workflows/coq%20%2F%20main/badge.svg)]
+[![Configlet Status](https://github.com/exercism/coq/workflows/configlet/badge.svg)]
+[![Exercise Test Status](https://github.com/exercism/coq/workflows/coq%20%2F%20main/badge.svg)]
 
 Exercism exercises in Coq.
 
