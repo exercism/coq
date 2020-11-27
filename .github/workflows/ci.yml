@@ -1,0 +1,22 @@
+name: coq / main
+
+on:
+  push:
+    branches: [master, main]
+  workflow_dispatch:
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    container:
+      image: coqorg/coq:8.9
+      env:
+        NJOBS: 2
+      
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run exercism/coq ci (runs tests) for all exercises
+        run: |
+          coq_makefile -f _CoqProject -o Makefile
+          make && make install
