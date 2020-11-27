@@ -9,15 +9,16 @@ on:
 jobs:
   ci:
     runs-on: ubuntu-latest
-    container:
-      image: coqorg/coq:8.9
-      env:
-        NJOBS: 2
       
     steps:
       - uses: actions/checkout@v2
 
+      - name: Pull coq docker image
+        run: docker pull coqorg/coq:8.9
+
       - name: Run exercism/coq ci (runs tests) for all exercises
         run: |
-          coq_makefile -f _CoqProject -o Makefile
-          make && make install
+          export NJOBS=2
+          docker run --rm coqorg/coq:8.9 "
+            coq_makefile -f _CoqProject -o Makefile && make && make install
+          " script
