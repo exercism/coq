@@ -1,5 +1,6 @@
 {
   "language": "Coq",
+  "slug": "coq",
   "active": false,
   "status": {
     "concept_exercises": false,
