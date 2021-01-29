@@ -1,6 +1,12 @@
 {
   "language": "Coq",
   "active": false,
+  "status": {
+    "concept_exercises": false,
+    "test_runner": false,
+    "representer": false,
+    "analyzer": false
+  },
   "blurb": "Coq is a proof assistant. Using Coq, you can write formal descriptions of mathematical definitions, algorithms and theorems. Coq also provides tactics to interactively develop machine-checked proofs.",
   "version": 3,
   "test_pattern": ".*[.]v",
