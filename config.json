@@ -10,6 +10,10 @@
   },
   "blurb": "Coq is a proof assistant. Using Coq, you can write formal descriptions of mathematical definitions, algorithms and theorems. Coq also provides tactics to interactively develop machine-checked proofs.",
   "version": 3,
+  "online_editor": {
+    "indent_style": "space",
+    "indent_size": 4
+  },
   "test_pattern": ".*[.]v",
   "exercises": [
     {
