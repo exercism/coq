@@ -20,6 +20,7 @@
       "slug": "hello-world",
       "name": "Hello World",
       "uuid": "a001fd68-5913-4041-80ea-0558b269ba4f",
+      "prerequisites": [],
       "difficulty": 1,
       "topics": []
     },
@@ -27,6 +28,7 @@
       "slug": "rna-transcription",
       "name": "Rna Transcription",
       "uuid": "10a7ad13-8564-4713-853b-5b13a829ac50",
+      "prerequisites": [],
       "difficulty": 1,
       "topics": []
     },
@@ -34,6 +36,7 @@
       "slug": "tautology",
       "name": "Tautology",
       "uuid": "b647eb59-40ce-49c9-b0ce-775615ce0063",
+      "prerequisites": [],
       "difficulty": 1,
       "topics": []
     }
