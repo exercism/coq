@@ -1,3 +1,5 @@
+# About
+
 Coq is a programming language and a logic system at the same time, based on [Curry-Howard correspondence](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence).
 In order to be a meaningful logic system, the language is designed so that any program written in Coq is guaranteed to terminate.
 Due to this, Coq is seldom used for general purposes; instead, it allows to develop *theories in mathematics* and write *certified programs*.

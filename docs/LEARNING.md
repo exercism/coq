@@ -1,3 +1,5 @@
+# Learning
+
 Coq is a formal proof management system. It provides a formal language to write mathematical definitions, executable algorithms and theorems together with an environment for semi-interactive development of machine-checked proofs.
 
 There are some free resources for learning Coq, such as:
