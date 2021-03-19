@@ -1,0 +1,11 @@
+{
+  "docs": [
+    {
+      "uuid": "7eb8d3f5-ca64-4984-9bda-a1bea1ee498d",
+      "slug": "learning",
+      "path": "docs/LEARNING.md",
+      "title": "How to learn Coq",
+      "blurb": "An overview of how to get started from scratch with Coq"
+    }
+  ]
+}
