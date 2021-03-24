@@ -1,6 +1,12 @@
 {
   "blurb": "The first rule of the Tautology Club is the first rule of the Tautology Club ",
-  "authors": [],
+  "authors": [
+    "vzaliva"
+  ],
+  "contributors": [
+    "kytrinyx",
+    "proger"
+  ],
   "files": {
     "solution": [],
     "test": [],
