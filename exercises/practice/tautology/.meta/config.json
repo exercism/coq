@@ -2,8 +2,14 @@
   "blurb": "The first rule of the Tautology Club is the first rule of the Tautology Club ",
   "authors": [],
   "files": {
-    "solution": [],
-    "test": [],
-    "example": []
+    "solution": [
+      "tautology.v"
+    ],
+    "test": [
+      "test.v"
+    ],
+    "example": [
+      "example.v"
+    ]
   }
 }
