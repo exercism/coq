@@ -1,33 +1,68 @@
 {
   "language": "Coq",
+  "slug": "coq",
   "active": false,
+  "status": {
+    "concept_exercises": false,
+    "test_runner": false,
+    "representer": false,
+    "analyzer": false
+  },
   "blurb": "Coq is a proof assistant. Using Coq, you can write formal descriptions of mathematical definitions, algorithms and theorems. Coq also provides tactics to interactively develop machine-checked proofs.",
+  "version": 3,
+  "online_editor": {
+    "indent_style": "space",
+    "indent_size": 4,
+    "highlightjs_language": "coq"
+  },
   "test_pattern": ".*[.]v",
-  "exercises": [
-    {
-      "slug": "hello-world",
-      "uuid": "a001fd68-5913-4041-80ea-0558b269ba4f",
-      "core": false,
-      "auto_approve": true,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": []
-    },
-    {
-      "slug": "rna-transcription",
-      "uuid": "10a7ad13-8564-4713-853b-5b13a829ac50",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": []
-    },
-    {
-      "slug": "tautology",
-      "uuid": "b647eb59-40ce-49c9-b0ce-775615ce0063",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": []
-    }
-  ]
+  "files": {
+    "solution": [
+      "%{kebab_slug}.v"
+    ],
+    "test": [
+      "test.v"
+    ],
+    "example": [
+      "example.v"
+    ],
+    "exemplar": [
+      ".meta/exemplar.v"
+    ]
+  },
+  "exercises": {
+    "concept": [],
+    "practice": [
+      {
+        "slug": "hello-world",
+        "name": "Hello World",
+        "uuid": "a001fd68-5913-4041-80ea-0558b269ba4f",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": []
+      },
+      {
+        "slug": "rna-transcription",
+        "name": "Rna Transcription",
+        "uuid": "10a7ad13-8564-4713-853b-5b13a829ac50",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": []
+      },
+      {
+        "slug": "tautology",
+        "name": "Tautology",
+        "uuid": "b647eb59-40ce-49c9-b0ce-775615ce0063",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": []
+      }
+    ]
+  },
+  "concepts": [],
+  "key_features": [],
+  "tags": []
 }
