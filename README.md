@@ -1,6 +1,7 @@
 # Exercism Coq Track
 
-[![Build Status](https://travis-ci.org/exercism/coq.svg?branch=master)](https://travis-ci.org/exercism/coq)
+[![Configlet Status](https://github.com/exercism/coq/workflows/configlet/badge.svg)]
+[![Exercise Test Status](https://github.com/exercism/coq/workflows/coq%20%2F%20main/badge.svg)]
 
 Exercism exercises in Coq.
 
