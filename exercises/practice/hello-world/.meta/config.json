@@ -9,7 +9,7 @@
   ],
   "files": {
     "solution": [
-      "hello-world.v"
+      "helloworld.v"
     ],
     "test": [
       "test.v"
