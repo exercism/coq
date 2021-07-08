@@ -15,7 +15,6 @@
     "indent_size": 4,
     "highlightjs_language": "coq"
   },
-  "test_pattern": ".*[.]v",
   "files": {
     "solution": [
       "%{kebab_slug}.v"
