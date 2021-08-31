@@ -15,7 +15,7 @@
       "test.v"
     ],
     "example": [
-      "example.v"
+      ".meta/example.v"
     ]
   },
   "source": "This is an exercise to introduce users to using Exercism",

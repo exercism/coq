@@ -15,7 +15,7 @@
       "test.v"
     ],
     "example": [
-      "example.v"
+      ".meta/example.v"
     ]
   }
 }
