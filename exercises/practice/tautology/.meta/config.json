@@ -1,5 +1,4 @@
 {
-  "blurb": "The first rule of the Tautology Club is the first rule of the Tautology Club ",
   "authors": [
     "vzaliva"
   ],
@@ -17,5 +16,6 @@
     "example": [
       ".meta/example.v"
     ]
-  }
+  },
+  "blurb": "The first rule of the Tautology Club is the first rule of the Tautology Club "
 }
