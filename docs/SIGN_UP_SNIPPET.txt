@@ -1,0 +1,12 @@
+Fixpoint count (word : string) (words : list string) : nat :=
+  match words with
+  | nil => 0
+  | w :: rest => if String.eqb w word then S (count word rest) else count word rest
+  end.
+
+Definition most_common_word (words : list string) : string * nat :=
+  fold_left
+    (fun best word =>
+       let n := count word words in
+       if Nat.ltb (snd best) n then (word, n) else best)
+    words ("", 0).
